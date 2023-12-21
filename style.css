@@ -1,5 +1,33 @@
-@charset "UTF-8"
+*{
+    font-family: arial;;
+    box-sizing: border-box;
+}
 
-h1{
-    color: blue;
+body{
+    margin: 0px;
+}
+
+
+.navbar{
+   background-color: aqua;
+   display: flex;
+   flex-flow: wrap row;
+   height: 100px;
+   justify-content: center;
+   align-items: center;
+}
+
+.logo{
+    color: green;
+    flex: 20%;
+    border: solid 1px red;
+    
+}
+
+.menu{
+    color: white;
+    flex: 80%;
+    border: 1px black solid;
+    text-align: right;
+    padding: 20px;
 }
