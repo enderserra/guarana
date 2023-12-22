@@ -22,7 +22,7 @@ body{
 }
 
 .logo{
-    color: white;
+    color: #f7f7f7;
     flex: 20%;
    /* border: solid 1px red; */
     text-align: center;
@@ -45,7 +45,7 @@ body{
 
 .menu a{
     text-decoration: none;
-    color: white;
+    color: #f7f7f7;
     padding: 20px;
 }
 
@@ -64,15 +64,16 @@ body{
 
 #botao:hover{
     border: none;
-    color: white;
+    color: #f7f7f7;
     background-color: #26332C;
 }
 
 .chamativo{
+    /* border: black solid 1px; */
     height: 500px;
     display: flex;
     flex-flow: row wrap;
-    margin: 1% 2%;
+    margin: 1% 2% 0% 2%;
     background-color: #f7f7f7;
     /* justify-content: center;
     align-items: center; */
@@ -105,7 +106,7 @@ body{
 }
 
 .contact{
-    color: white;
+    color: #f7f7f7;
     background-color: #c74f35;
     display: inline-block;
     text-decoration: none;
@@ -118,7 +119,7 @@ body{
 
 .bloco1 a:hover{
     border: none;
-    color: white;
+    color: #f7f7f7;
     background-color: #26332C
 }
 
@@ -137,12 +138,14 @@ body{
 
 .produtos{
     background-color: #4f5f44;
-    color: white;
-    border: solid black 1px;
+    color: #f7f7f7;
+    /* border: solid black 1px; */
     margin: 0% 2% 20%  2% ; 
 }
 
-.produtos h2{
+#fixo{
+    /* border: solid white; */
+    background-color: #4f5f44;
     text-align: center;
     font-family: 'Dancing Script', cursive;
     font-family: 'Monoton', sans-serif;
@@ -152,10 +155,29 @@ body{
 
 
 .card{
+    color: black;
+    background-color: #4f5f44;
     display: inline-block;
+    align-items: center;
+    text-align: center;
     margin: 1%;
     width: 30%;
-    padding: 10%;
-    border: 1px solid white;
+    padding: 5%;
+    border-radius: 10%;
+    cursor: pointer;
+    border: 1px solid #f7f7f7;
 }
 
+.card:hover{
+    background-color: #f7f7f7;
+    padding: 6%;
+}
+
+footer{
+    color: #f7f7f7;
+    background-color: #6B0700;
+    border: solid black 1px;
+    margin-top: 1px;
+    height: 300px;
+
+}
