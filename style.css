@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
 *{
     font-family: arial;;
     box-sizing: border-box;
@@ -9,7 +11,7 @@ body{
 
 
 .navbar{
-   background-color: aqua;
+   background-color:#4f5f44;
    display: flex;
    flex-flow: wrap row;
    height: 100px;
@@ -18,16 +20,67 @@ body{
 }
 
 .logo{
-    color: green;
+    color: white;
     flex: 20%;
-    border: solid 1px red;
-    
+   /* border: solid 1px red; */
+    text-align: center;
+    margin-left: 10%;
+}
+
+.logo h1{
+    font-family: cursive;
 }
 
 .menu{
-    color: white;
-    flex: 80%;
-    border: 1px black solid;
+
+    flex: 70%;
+    /*  border: 1px black solid; */
     text-align: right;
     padding: 20px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+.menu a:hover{
+    color: #6b0700;
+    border-top: 4px solid #6b0700;
+}
+
+#botao{
+    background-color: #c74f35;
+    padding: 10px 25px;
+    border-radius: 8%;
+    margin-right: 10px;
+    margin-left: 5%;
+}
+
+#botao:hover{
+    border: none;
+    color: white;
+    background-color: #26332C;
+}
+
+.header{
+   
+    height: 600px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.chamativo{
+    margin-left: 10px;
+    flex: 40%;
+    /* border: solid 1px black; */
+}
+
+.img{
+    margin-right: 10px;
+    flex: 40%;
+    /* border: solid 1px black; */
+    text-align: center;
+    margin-top: 20px;
 }
