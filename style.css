@@ -39,7 +39,7 @@ body{
 }
 
 .menu{
-
+    /* margin: 0% 2% 0% 2% ; */
     flex: 70%;
     /*  border: 1px black solid; */
     text-align: right;
@@ -78,7 +78,7 @@ body{
     flex-flow: row wrap;
     /* border: #6b0700 solid 1px; */
     padding-top: 100px;
-    /* margin: 2% 0% 0% 0%; */
+    margin: 0% 2% 0% 2%;
     background-color: #f7f7f7;
     /* justify-content: center;
     align-items: center; */
@@ -86,7 +86,7 @@ body{
 
 .bloco1{
     flex: 40%;
-   
+
     /* align-items: center; */
     /* border: solid 1px black; */
 }
@@ -149,9 +149,9 @@ body{
     background-color: #4f5f44;
     color: #f7f7f7;
     border: solid #4f5f44 5px;
-    margin-top: 1%;
+    /* margin-top: 1%; */
     padding: 0%;
-    /* margin: 2% 0% 0%  0% ; */
+    margin: 0% 2% 0% 2% ;
 }
 
 #fixo{
@@ -190,6 +190,7 @@ footer{
     border: solid #f7f7f7 1px;
     /* margin-top: 2%; */
     height: 300px;
+    margin: 0% 2% 0% 2%;
 }
 
 footer h1,p {
