@@ -36,6 +36,14 @@
         font-size: 60px;
     }
 
+    .marca p{
+        font-size: 10px;
+    }
+
+    .fale-conosco{
+        margin-top: 2%;
+    }
+
     .bloco1 p{
         text-align: center;
     }
