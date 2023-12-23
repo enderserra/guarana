@@ -47,5 +47,13 @@
         text-align: center;
     }
 
+    .card{
+        width: 29%;
+        display: inline-block;
+        margin: 1% 1% 1% 2%;
+        align-items: center;
+        text-align: center;
+        padding: 5%;
+    }
 
 }
