@@ -167,6 +167,7 @@ body{
 
 .card{
     color: black;
+    font-size: 80%;
     background-color: #4f5f44;
     display: inline-block;
     align-items: center;
@@ -184,21 +185,57 @@ body{
     padding: 6%;
 }
 
-footer{
+.rodape{
     color: #4f5f44;
     background-color: #f7f7f7;
     border: solid #f7f7f7 1px;
     /* margin-top: 2%; */
-    height: 300px;
+    height: 100%;
+    width: 100%;
     margin: 0% 2% 0% 2%;
 }
 
-footer h1,p {
+.rodape h1{
     margin-left: 2%;
+    margin-right: 2%;
+    /* border: black solid 1px; */
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Monoton', sans-serif;
+    font-family: 'Sriracha', cursive;
+    font-size: xx-large;
 }
 
+.rodape h2{
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: large;
+    /* border: black solid 1px; */
+}
 
-footer h3{
+.rodape > h2 {
+    cursor: pointer;
+}
+
+.rodape > p {
+    display: none;
+    font-size: small;
+}
+
+.rodape > h2:hover + p {
+    display: block;
+    color: #6b0700;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Monoton', sans-serif;
+    font-family: 'Sriracha', cursive;
+}
+
+.termos {
+    margin-left: 2%;
+    margin-right: 2%;
     text-align: center;
-    border: white solid 1px;
+    font-size: small;
+    /* border:black solid 1px; */
 }
