@@ -82,13 +82,18 @@
         text-align: center;
     }
 
+    .produtos{
+        /* margin-left: 10%;
+        margin-right: 10%; */
+    }
+
     .card{
-        width: 29%;
-        display: inline-block;
-        margin: 1% 1% 1% 2%;
+        width: 100%;
+        /* display: inline-block; */
+        margin-left: 4px;
         align-items: center;
         text-align: center;
-        padding: 5%;
+        padding: 1%;
     }
 
 }
