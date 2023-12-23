@@ -3,8 +3,25 @@
         position: relative;
     }
     .menu{
-        display: none;
+        flex: 100%;
+        font-size: 55%;
+        align-items: center;
     }
+
+    .menu a:hover{
+        border-top: none;
+    }
+
+    #entrar{
+        font-size: 30%;
+        background-color: #c74f35;
+        padding: 10px 25px;
+        /* margin-bottom: 80%; */
+        border-radius: 10%;
+        margin-right: 2%;
+        margin-left: 5%;
+    }
+
     .logo{
         margin: 0;
         text-align: center;
