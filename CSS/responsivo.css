@@ -90,9 +90,10 @@
     }
 
     .card{
-        width: 100%;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
         /* display: inline-block; */
-        margin-left: 4px;
         align-items: center;
         text-align: center;
         padding: 1%;
