@@ -36,12 +36,14 @@
         font-size: 60px;
     }
 
-    .marca p{
+    .frase{
+        flex: 80%;
         font-size: 10px;
+        margin: 20%;
     }
 
     .fale-conosco{
-        margin-top: 2%;
+        margin-top: 7%;
     }
 
     .bloco1 p{
