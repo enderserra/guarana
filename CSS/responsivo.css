@@ -5,6 +5,7 @@
     .menu{
         flex: 100%;
         font-size: 55%;
+        padding: 10px;
         align-items: center;
     }
 
@@ -13,24 +14,27 @@
     }
 
     #entrar{
-        font-size: 30%;
+        font-size: 100%;
+        text-align: center;
         background-color: #c74f35;
-        padding: 10px 25px;
+        padding: 10px 20px 5px 20px;
         /* margin-bottom: 80%; */
         border-radius: 10%;
         margin-right: 2%;
         margin-left: 5%;
     }
 
-    .logo{
-        margin: 0;
-        text-align: center;
-    }
     .logo h1{
         flex: 100%;
         margin: 2%;
         text-align: center;
     }
+
+    .logo{
+        margin: 0;
+        text-align: center;
+    }
+
     .chamativo{
         padding-top: 50px;
     }
@@ -63,14 +67,17 @@
         margin-top: 7%;
     }
 
-    .bloco1 p{
-        text-align: center;
-    }
-
     .bloco2{
         display: none;
-        flex: 100%;
+        flex: 50%;
         margin: 5%;
+        text-align: center;
+        height: 20px;
+        width: 10px;
+    }
+    
+
+    .bloco1 p{
         text-align: center;
     }
 
