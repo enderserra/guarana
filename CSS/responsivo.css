@@ -1,0 +1,50 @@
+@media screen and (max-width: 1005px){
+    .navbar{
+        position: relative;
+    }
+    .menu{
+        display: none;
+    }
+    .logo{
+        margin: 0;
+        text-align: center;
+    }
+    .logo h1{
+        flex: 100%;
+        margin: 2%;
+        text-align: center;
+    }
+    .chamativo{
+        padding-top: 50px;
+    }
+    .bloco1{
+        flex: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .bloco1 h3{
+        flex: 100%;
+        text-align: center;
+        font-size: small;
+    }
+
+    .marca{
+        flex: 100%;
+        text-align: center;
+        margin: 15%;
+    }
+
+    .bloco1 p{
+        text-align: center;
+    }
+
+    .bloco2{
+        display: none;
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+
+
+}
