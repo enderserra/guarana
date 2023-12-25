@@ -213,9 +213,9 @@ body{
     /* border: black solid 1px; */
 }
 
-.rodape > h2 {
+/* .rodape > h2 {
     cursor: pointer;
-}
+} */
 
 .rodape > p {
     display: none;
