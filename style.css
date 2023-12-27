@@ -352,6 +352,9 @@ body{
     .forms{
         display: flex;
         margin-top: 10%;
+        padding: 2%;
+        flex-direction: column;
+        
     }
 
     .button{
