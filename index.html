@@ -3,76 +3,325 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GuaraMix</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="CSS/responsivo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Landing page</title>
 </head>
 <body>
-    <nav class="navbar">
-           <div class="logo">
-            <h1>GuaraMix</h1>
-           </div>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-burger" id="nav_logo"> food</i>
 
-           <div class="menu">
-            <a href="#">Sobre nós</a>
-            <a href="#">Serviços</a>
-            <a href="#">criar conta</a>
-            <a id="entrar" href="entrar.html" >Entrar</a>
-           </div>
-    </nav>
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
 
+            <button class="btn-default">
+                Peça aqui
+            </button>
 
-    <header class="chamativo">
-            <div class="bloco1">
-                <h3 style=" letter-spacing: 12px; font-size: 15px;" >Bem-vindo ao mundo encantador da</h3>
-                <h2 class="marca">GuaraMix</h2>
-                <p class="frase" >GuaraMix: Mais do que uma loja, uma experiência de compras inesquecível. Estamos ansiosos para recebê-lo em nossa loja!</p>
-                <a class="fale-conosco" target="_blank" href="https://api.whatsapp.com/send?phone=5598985874720&text=Ol%C3%A1,%20%C3%A9%20aqui%20onde%20tem%20guaran%C3%A1%20de%20qualidade%20?%F0%9F%98%8D">Fale conosco</a>
-            </div>
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
 
-            
-            <div class="bloco2">
-                   <img class="tam" style="max-width: 55%;" src="Milk Shake Png, Transparent Png , Transparent Png Image - PNGitem (1).jpeg" alt="fruta">
-            </div>
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Peça aqui
+            </button>
+        </div>
     </header>
 
-    <main>
-            <div class="produtos">
-                <h2 id="fixo">Nossos produtos</h2>
-                <div class="card" >
-                    <img src="maracujá.png" alt="#">
-                    <h3>Guaraná + Maracujá</h3>
-                    <p>A combinação de Guaraná da Amazônia com maracujá cria uma fusão tropical e refrescante. Mistura resulta em uma bebida exótica e revigorante, perfeita para quem busca uma experiência vibrante e saborosa.</p>
-                  
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    O sabor que vai até
+                    <span>você</span>
+                </h1>
+
+                <p class="description">
+                    Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit ut aliquam, purus sit amet
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default">
+                        Ver cardápio
+                    </a>
+
+                    <a href="tel:+55555555555" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (51) 92342-3243
+                    </a>
                 </div>
-                <div class="card" >
-                    <img src="berry.png" alt="#">
-                    <h3>Guaraná + Açaí</h3>
-                    <p>Unir o Guaraná amazônico com o açaí, uma fruta antioxidante, proporciona uma explosão de sabores e benefícios para a saúde, combinação é ideal para quem procura uma bebida revigorante com um toque tropical e nutritivo.</p>
-                </div>
-                <div class="card">
-                    <img src="bananas.png" alt="#">
-                    <h3>Guaraná + Banana</h3>
-                    <p>A fusão do Guaraná amazônico com a doçura natural da banana resulta em uma mistura equilibrada entre energia e sabor frutado, combinação é perfeita para quem busca uma bebida revigorante e reconfortante.</p>
+
+                <div class="social-media-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
                 </div>
             </div>
 
+            <div id="banner">
+                <img src="src/images/hero.png" alt="">
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">Cardápio</h2>
+            <h3 class="section-subtitle">Nossos pratos especiais</h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/dish.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Lorem Ipsum
+                    </h3>
+
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/dish2.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Lorem Ipsum
+                    </h3>
+
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/dish3.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Lorem Ipsum
+                    </h3>
+
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/dish4.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Lorem Ipsum
+                    </h3>
+
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <img src="src/images/chef.png" id="testimonial_chef" alt="">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Depoimentos
+                </h2>
+                <h3 class="section-subtitle">
+                    O que os clientes falam sobre nós
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="src/images/avatar.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Fulana de Tal
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Repellat voluptatibus cumque dolor ea est quae alias necessitatibus"
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="src/images/avatar.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Fulana de Tal
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Repellat voluptatibus cumque dolor ea est quae alias necessitatibus"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn-default">
+                    Ver mais avaliações
+                </button>
+            </div>
+        </section>
+    </main>
+
     <footer>
-        <div class="rodape">
-            <h1>Dúvidas Frequentes</h1>
-                <h2 class="d1">Qual a origem do guaraná</h2>
-                    <p>O guaraná tem origens nas florestas tropicais da Amazônia, onde é cultivado e usado por comunidades indígenas há séculos.</p>
-                <h2 class="d2">Como pedir meu GuaraMix ?</h2>
-                    <p>Para pedir seu GuaraMix, visite nossa loja online, adicione os produtos desejados ao carrinho e siga as instruções de checkout.</p>
-                <h2 class="d3">Tem frete ?</h2>
-                    <p>O custo do frete varia de acordo com a sua localização. Ao finalizar a compra, você verá as opções de frete disponíveis e os custos associados.</p>
-                <h2 class="d4">Qual o melhor sabor ?</h2>
-                    <p>O GuaraMix oferece uma variedade de sabores para todos os gostos. Experimente diferentes opções e descubra o seu preferido, seja frutado, cítrico ou clássico.</p>
-                <h2 class="d5">Onde comprar prensecialmente ?</h2>
-                    <p>Você pode comprar GuaraMix pessoalmente em nossa loja física localizada em [endereço].Visite-nos para uma experiência única de compra.</p>
-             <h3 class="termos">© Termos e condições de uso</h3>
+        <img src="src/images/wave.svg" alt="">
+
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2024 Larissa Kich
+            </span>
+
+            <div class="social-media-buttons">
+                <a href="">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
         </div>
     </footer>
-    
+    <script src="src/javascript/script.js"></script>
 </body>
 </html>
